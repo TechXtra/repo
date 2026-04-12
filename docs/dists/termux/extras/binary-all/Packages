@@ -1,0 +1,12 @@
+Package: rstm-mod-theme
+Version: 1.0
+Architecture: all
+Maintainer: @RstmMod
+Description: Official RstmMod Theme and Fish Prompt.
+Filename: dists/termux/extras/binary-all/rstm-mod-theme.deb
+Size: 920
+MD5Sum: 2b4f009869cbd0f5dac556435c84b2cf
+SHA1: 0bc99adb8d9172abc06cfd68b65d6072721d8da7
+SHA256: d6a391c61722272468c38dfef19951d212ad4d010be8d20d0aeb5ee47f757b97
+SHA512: d728e2111384f89887a2b802491f27d699f26f9fff3aac06dff6f0cbede319b855d8342ba119e6071187f96154002cc061b42ddf5fa48b132e93c1a83b814ca4
+
