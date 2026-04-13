@@ -1,4 +1,5 @@
 data/data/com.termux/files/usr/bin/rstm-font                                     rstm-mod-theme
+data/data/com.termux/files/usr/bin/rstm-tool                                     rstm-mod-theme
 data/data/com.termux/files/usr/etc/fish/conf.d/rstm_prompt.fish                  rstm-mod-theme
 data/data/com.termux/files/usr/share/rstm-mod/font.ttf                           rstm-mod-theme
 data/data/com.termux/files/usr/share/rstm-mod/fonts/Agave.ttf                    rstm-mod-theme

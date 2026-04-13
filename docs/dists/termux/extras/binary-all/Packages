@@ -4,9 +4,9 @@ Architecture: all
 Maintainer: @RstmMod
 Description: Official RstmMod Theme and Fish Prompt.
 Filename: dists/termux/extras/binary-all/rstm-mod-theme.deb
-Size: 1727416
-MD5Sum: 02b5d227a4e6d85a1da31bbeb9bd8b26
-SHA1: 25024e4b45e7dc651090c1ea6659e2dd7b4dd026
-SHA256: 127bedc6e7a008888297f230f0a6b8201bacc19a423a1937a355b4a0badb2304
-SHA512: 5482c2e9ce942e3e784b4fc18adf82ef90da7ede20a1b81b9c3946f9c481026c65981923ed27905c608216c6dfc4a071f0b96d404757b9ea45e266895278ae2b
+Size: 1727388
+MD5Sum: ee87a9af05bac5380ad91a551f67bdfc
+SHA1: ea7ca2d72dffcf513c8b34782f3f4d153e2f03b3
+SHA256: 51813b576de9abcd2f429fdaf225885cf2be4c219a1815a0f58dfd0cb4f72ff5
+SHA512: d42c1648de199aad4a1b8b1436a9b81be9bf8814b3ca7709fecb139c377789997b2dbd4bfee69d2e8f389424ea8b5848426b0d848dd9259f096b5974d502f105
 
