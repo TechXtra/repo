@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir -p ~/.termux
+cp /data/data/com.termux/files/usr/share/rstm-mod/font.ttf ~/.termux/font.ttf
+termux-reload-settings
+echo "Font updated successfully by @RstmMod!"
+
