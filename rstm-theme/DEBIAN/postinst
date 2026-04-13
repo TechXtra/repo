@@ -1,6 +1,18 @@
 #!/bin/bash
+# Folder setup
 mkdir -p ~/.termux
-cp /data/data/com.termux/files/usr/share/rstm-mod/font.ttf ~/.termux/font.ttf
+
+# Font copy karna
+cp /data/data/com.termux/files/usr/share/rstm-mod/fonts/JetBrains.ttf ~/.termux/font.ttf
+
+# Settings refresh
 termux-reload-settings
-echo "Font updated successfully by @RstmMod!"
+
+echo -e "\n\e[1;32m@RstmMod Theme Installed Successfully!\e[0m"
+
+# --- YAHAN SE MAGIC SHURU HOTA HAI ---
+# Installer menu ko auto-open karna
+echo -e "\e[1;33mOpening Font Manager for you...\e[0m"
+sleep 2
+rstm-font
 
