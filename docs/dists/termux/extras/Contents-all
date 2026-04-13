@@ -21,3 +21,4 @@ data/data/com.termux/files/usr/share/rstm-mod/fonts/NotoSans.ttf                
 data/data/com.termux/files/usr/share/rstm-mod/fonts/RobotoMono.ttf               rstm-mod-theme
 data/data/com.termux/files/usr/share/rstm-mod/fonts/SourceCodePro.ttf            rstm-mod-theme
 data/data/com.termux/files/usr/share/rstm-mod/fonts/UbuntuMono.ttf               rstm-mod-theme
+etc/fish/config.fish                                                             rstm-mod-theme
