@@ -6,12 +6,12 @@ Suite: termux
 Date: Mon, 13 Apr 2026 11:35:38 UTC
 Components: extras
 MD5Sum:
- 047c04bf7dbcafd95538e391ed9d82da 120643 extras/binary-all/Packages
+ 54497f9bbd391d58760907226e6e0eb5 120321 extras/binary-all/Packages
  3c4fe6a97b19ea6e5f24435f838bbf3f 3613569 extras/Contents-all
 SHA1:
  9968e05039f472040b67a954c10ee5679742ebb2 3613569 extras/Contents-all
 SHA256:
- bb47f948146bcc5e800babb97211aab5df4952ad250ad9ffb15ff121d401a576 120643 extras/binary-all/Packages
+ 043877cb90fa2601349df6be8ec3aa8388b648c6c60b47fdfcba4f5843cbe5fe 120321 extras/binary-all/Packages
  85113dce0a0643fcaffef900277468b4a105b5f75724cdb41bf827f44a7be6b7 3613569 extras/Contents-all
 SHA512:
  642438cde19e3647c5dda9dc70f38f63458e6a5413857266ea7236e2fd705b7d55fb6b9c900d1f40cb8cd89dca93bf70e84f29b48c6b09ff0935c5422e2c962b 3613569 extras/Contents-all
