@@ -1,24 +1,19 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TechXtra/repo/main/docs/logo.png" width="180">
-</p>
+## 🚀 Welcome to RstmMod  
+A Custom Termux APT Repository for Advanced Tools, Modding & Scripts
 
-<h1 align="center">RstmMod Repository</h1>
+[![GitHub Stars](https://img.shields.io/github/stars/TechXtra/repo?style=social)](https://github.com/TechXtra/repo)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/TechXtra/repo/blob/main/LICENSE)
+[![Telegram](https://img.shields.io/badge/Join-Telegram-2CA5E0?logo=telegram)](https://t.me/TechXtra)
 
-<p align="center">
-  <a href="https://github.com/TechXtra/repo/releases"><img src="https://img.shields.io/github/v/release/TechXtra/repo?style=for-the-badge&color=0078D4&logo=github"></a>
-  <a href="https://github.com/TechXtra/repo/stargazers"><img src="https://img.shields.io/github/stars/TechXtra/repo?style=for-the-badge&color=F7DF1E&logo=reverbnation&logoColor=black"></a>
-  <a href="https://t.me/TechXtra"><img src="https://img.shields.io/badge/Telegram-Join-26A8ED?style=for-the-badge&logo=telegram"></a>
-</p>
+### 🙋‍♂️ Who We Are  
+We’re the **RstmMod Crew**, dedicated to providing Termux users with powerful, pre-configured, and customized tools. Our repository, powered by **TechXtra**, focuses on making advanced modding and automation accessible without the hassle of broken dependencies. 🛠️
 
-<p align="center">
-  <b>The ultimate customized repository for advanced Termux users.</b>
-  <br>
-  <i>Fast • Secure • Branded [TechXtra]</i>
-</p>
+### 🔧 What We Do  
+- Build and modify high-end tools for Android/Termux users.  
+- Simplify complex setups with professional one-command installers.  
+- Ensure all packages are tested and optimized for speed and reliability.  
 
----
-
-### 📥 Quick Setup
-Termux mein ye command paste karein:
+### 📦 Get Started  
+Add the RstmMod repository to your Termux in one go:  
 ```bash
-curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/install.sh](https://raw.githubusercontent.com/TechXtra/repo/main/install.sh) | bash
+curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh](https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh) | bash
