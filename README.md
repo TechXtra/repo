@@ -17,7 +17,7 @@ We’re the **RstmMod Crew**, dedicated to providing Termux users with powerful,
 Add the RstmMod repository to your Termux in one go:  
 
 ```bash
-curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh](https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh) | bash
+curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/install.sh](https://raw.githubusercontent.com/TechXtra/repo/main/install.sh) | bash
 ```
 
 > **Tip**: Make sure you have `curl` installed. If not, run `pkg install curl` first.
