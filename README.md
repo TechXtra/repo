@@ -26,7 +26,7 @@ curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh](
 | Resource | Link |
 |----------|------|
 | 📚 Main Repository | [github.com/TechXtra/repo](https://github.com/TechXtra/repo) |
-| 🛠️ Package List | [PACKAGES.md](https://github.com/TechXtra/repo/blob/main/docs/Packages) |
+| 🛠️ Package List | [PACKAGES.md](https://github.com/TechXtra/repo/blob/main/PACKAGES.md) |
 | 💬 Community | [t.me/TechXtra](https://t.me/TechXtra) |
 
 ### ☕ About Us  
