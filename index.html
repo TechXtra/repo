@@ -1,35 +1,301 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RstmMod [TechXtra]</title>
-    <style>
-        body { background-color: #010409; color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: center; margin: 0; padding: 10vh 20px; }
-        .logo { width: 150px; border-radius: 50%; margin-bottom: 20px; border: 2px solid #a5ff0f; box-shadow: 0 0 25px rgba(165, 255, 15, 0.3); }
-        h1 { color: #a5ff0f; font-size: 3em; margin: 0; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 0 10px rgba(165, 255, 15, 0.5); }
-        p { font-size: 1.1em; color: #8b949e; max-width: 600px; margin: 15px auto; line-height: 1.6; }
-        b { color: #f0f6fc; }
-        .terminal { background: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 20px; text-align: left; max-width: 650px; margin: 40px auto; color: #d2ff72; font-family: 'Courier New', Courier, monospace; font-size: 1.1em; overflow-x: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
-        .terminal::before { content: "$ "; color: #a5ff0f; font-weight: bold; }
-        .buttons { margin-top: 50px; }
-        .btn { display: inline-block; background: #a5ff0f; color: #010409; text-decoration: none; padding: 14px 28px; border-radius: 6px; font-weight: bold; font-size: 1.1em; margin: 10px; transition: 0.2s ease-in-out; border: 2px solid #a5ff0f; }
-        .btn:hover { background: transparent; color: #a5ff0f; transform: translateY(-2px); }
-        .btn-outline { background: transparent; border: 2px solid #30363d; color: #8b949e; }
-        .btn-outline:hover { border-color: #a5ff0f; color: #a5ff0f; background: rgba(165, 255, 15, 0.05); }
-        .footer { margin-top: 80px; color: #484f58; font-size: 0.9em; }
-    </style>
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RstmMod APT Repository</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+    a { color: #a5ff0f; text-decoration: none; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      background: #161b22;
+      border-bottom: 1px solid #222;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 36px;
+      margin-right: 0.6rem;
+      border-radius: 50%;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #a5ff0f;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      margin: 0 0.6rem;
+      font-weight: 600;
+      color: #e6edf3;
+    }
+    /* Mobile Nav */
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        background: #161b22;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 1rem;
+        border-left: 1px solid #222;
+      }
+      nav.show { display: flex; }
+      .menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: #a5ff0f;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    }
+    @media (min-width: 769px) {
+      .menu-btn { display: none; }
+    }
+    .hero {
+      text-align: center;
+      padding: 2.5rem 1.2rem;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      color: #a5ff0f;
+      margin: 1rem 0;
+    }
+    .badges a img {
+      margin: 0.3rem;
+      height: 28px;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 12px;
+    }
+    section h2 {
+      color: #a5ff0f;
+      margin-bottom: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+    table th, table td {
+      padding: 0.6rem;
+      border-bottom: 1px solid #333;
+      text-align: left;
+    }
+    table th { color: #a5ff0f; }
+    pre {
+      background: #161b22;
+      padding: 0.8rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+    .code-block {
+      position: relative;
+      margin: 1rem 0;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background: #a5ff0f;
+      border: none;
+      padding: 3px 7px;
+      font-size: 0.8rem;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #010409;
+      transition: 0.2s;
+      font-weight: bold;
+    }
+    .copy-btn:hover { background: #8ce600; }
+    details {
+      background: #161b22;
+      border-radius: 8px;
+      margin: 0.6rem 0;
+      padding: 0.6rem 0.8rem;
+      cursor: pointer;
+    }
+    summary { font-weight: 600; color: #a5ff0f; }
+    .community { text-align: center; }
+    footer {
+      background: #161b22;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      border-top: 1px solid #222;
+    }
+    footer h3 {
+      color: #a5ff0f;
+      margin-bottom: 0.6rem;
+    }
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+    footer ul li { margin: 0.3rem 0; }
+    footer .credits {
+      grid-column: 1/-1;
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-    <img src="https://avatars.githubusercontent.com/TechXtra" alt="TechXtra Logo" class="logo">
-    <h1>RstmMod</h1>
-    <p>A Third-Party (Unofficial) Termux APT Repository for Cutting-Edge & Custom Packages by <b>[TechXtra]</b>.</p>
-    <div class="terminal">curl -sL https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh | bash</div>
-    <div class="buttons">
-        <a href="https://github.com/TechXtra/repo" class="btn">⭐ View on GitHub</a>
-        <a href="https://github.com/TechXtra/repo/blob/main/PACKAGES.md" class="btn btn-outline">📦 Packages</a>
-        <a href="https://t.me/TechXtra" class="btn btn-outline">💬 Telegram</a>
+
+  <header>
+    <div class="logo">
+      <img src="https://avatars.githubusercontent.com/TechXtra" alt="RstmMod Logo">
+      RstmMod
     </div>
-    <div class="footer"><p>Developed with ❤️ by RstmMod Crew | Innovation is the key to freedom</p></div>
-</body>
-</html>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <nav id="navbar">
+      <a href="#overview">Overview</a>
+      <a href="#tools">Tools</a>
+      <a href="#installation">Installation</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>RstmMod APT Repository</h1>
+    <p>Advanced Security Tools for Termux - Powered by [TechXtra]</p>
+    <div class="badges">
+      <a href="https://github.com/TechXtra/repo/stargazers">
+        <img src="https://img.shields.io/github/stars/TechXtra/repo?style=for-the-badge&logo=github&color=a5ff0f&labelColor=0d1117" alt="GitHub Stars">
+      </a>
+      <a href="https://github.com/TechXtra/repo/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="License">
+      </a>
+    </div>
+    <p><b>Quick Start</b> • <a href="https://github.com/TechXtra/repo.git">View Repo →</a></p>
+  </div>
+
+  <section id="overview">
+    <h2>🔍 Project Overview</h2>
+    <p>RstmMod provides customized, optimized security tools for Termux with enhanced performance and reliability. Crafted specially for advanced users!</p>
+  </section>
+
+  <section id="tools">
+    <h2>✨ Featured Tools</h2>
+    <table>
+      <tbody><tr><th>Tool</th><th>Category</th><th>Description</th></tr>
+      <tr><td><b>zaproxy</b></td><td>Web Security</td><td>OWASP Zed Attack Proxy</td></tr>
+      <tr><td><b>wordlists</b></td><td>Brute Force</td><td>Comprehensive security wordlists</td></tr>
+      <tr><td><b>xstrike</b></td><td>Web Security</td><td>Advanced XSS Scanner</td></tr>
+      <tr><td><b>zen-c</b></td><td>Development</td><td>Custom C compiler tools</td></tr>
+    </tbody></table>
+    <p style="margin-top:1rem;"><a href="https://github.com/TechXtra/repo/blob/main/PACKAGES.md">View Complete Package List »</a></p>
+  </section>
+
+  <section id="installation">
+    <h2>🚀 Quick Start</h2>
+    <div class="code-block">
+      <button class="copy-btn" onclick="copyCode(this)">📋</button>
+      <pre><code># Add repository
+curl -sL https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh | bash</code></pre>
+    </div>
+    <div class="code-block">
+      <button class="copy-btn" onclick="copyCode(this)">📋</button>
+      <pre><code># Install tools
+pkg install &lt;tool name&gt;</code></pre>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>❓ FAQ</h2>
+    <details>
+      <summary>Are these tools legal to use?</summary>
+      <p>All tools are for <b>legal security research and ethical hacking purposes only</b>. Always obtain authorization before testing systems.</p>
+    </details>
+    <details>
+      <summary>How often are tools updated?</summary>
+      <ul>
+        <li>Regular feature updates</li>
+        <li>Continuous security patches</li>
+        <li>Tested for latest Termux versions</li>
+      </ul>
+    </details>
+    <details>
+      <summary>Can I request new tools?</summary>
+      <p>Yes! Submit requests via:</p>
+      <ul>
+        <li>GitHub Issues</li>
+        <li>Telegram @TechXtra</li>
+      </ul>
+    </details>
+  </section>
+
+  <section id="support" class="community">
+    <h2>🌐 Support & Community</h2>
+    <a href="https://t.me/TechXtra">Telegram</a> ·
+    <a href="https://github.com/TechXtra">GitHub Profile</a> ·
+    <a href="https://github.com/TechXtra/repo/issues">GitHub Issues</a>
+    <p style="margin-top:1rem;">Support the project: ⭐ Star this repository · 🐛 Report issues responsibly · 📢 Share with communities</p>
+  </section>
+
+  <footer>
+    <div>
+      <h3>RstmMod</h3>
+      <p>Advanced Termux tools & scripts. Built with ❤️ by the RstmMod Crew [TechXtra].</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="https://github.com/TechXtra/repo">GitHub Repo</a></li>
+        <li><a href="https://github.com/TechXtra/repo/blob/main/PACKAGES.md">Tool List</a></li>
+      </ul>
+    </div>
+    <div class="credits">
+      © 2026 RstmMod. Maintained by TechXtra.
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navbar").classList.toggle("show");
+    }
+    function copyCode(button) {
+      const code = button.nextElementSibling.innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        button.innerText = "✅";
+        setTimeout(() => (button.innerText = "📋"), 1500);
+      });
+    }
+  </script>
+
+</body></html>
