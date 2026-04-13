@@ -1,8 +1,8 @@
 Package: 5luser
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/5LUser 
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/5LUser 
 Depends: git, python, python-pip
 Description: get unlimited 5 letters instagram unused usernames
 Filename: dists/termux/extras/binary-all/5luser.deb
@@ -15,7 +15,7 @@ SHA512: 6de514c680bd5bf0fe831e685be0a7da7d429cb3190ae29949c2efcade7440420a88d4ad
 Package: afrog
 Version: 3.2.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang
 Section: web
 Priority: optional
@@ -34,7 +34,7 @@ SHA512: 2d7b8d803def7a9fb94cc73e0077dd093aad9ec80c590530af2e6b01cc68a2c528c61605
 Package: alienkrishn
 Version: 2.0.6
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, termux-tools
 Section: utils
 Priority: optional
@@ -52,7 +52,7 @@ SHA512: 5416dd8ac99fc4ccb0daa4cb922bf8338cb7828ee220de1ccfb485fcc9924354418bce4f
 Package: amass
 Version: 5.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, tar
 Section: recon
 Priority: optional
@@ -71,7 +71,7 @@ SHA512: 216e9b9ee1e649470cd7486d217045c1495b031849ac4a18278dfd5e78200b1a5eaa8c25
 Package: andrax
 Version: 5-2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel
 Installed-Size: 12060343
 Section: utils
@@ -92,7 +92,7 @@ Package: androdos
 Version: 1.0.0
 Architecture: all
 Depends: python
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Installed-Size: 52
 Description: Denials of service(DoS) attack tool
 Filename: dists/termux/extras/binary-all/androdos.deb
@@ -105,7 +105,7 @@ SHA512: 697cdf3bd16345f8177c63fdb08f124328d1af65bee59a50c1f17d5b757b14e9baceca51
 Package: android-sdk
 Version: 36.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21, p7zip, axel
 Suggests: cmake, ninja-build
 Section: development
@@ -131,10 +131,10 @@ Package: androvirus
 Version: 3.0
 Architecture: all
 Section: security
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, git, php, cloudflared
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/AndroVirus.git
+Homepage: https://github.com/Anon4You/AndroVirus.git
 Description: Android penetration testing framework (USE RESPONSIBLY)
  AndroVirus is a security assessment tool designed for authorized penetration testing and educational purposes only. The tool can be used to demonstrate phishing vulnerabilities in Android systems.
  WARNING: This tool is capable of compromising Android devices when malicious links are delivered. Use only on systems you own or have explicit permission to test. The maintainer assumes no responsibility for unauthorized or illegal use.
@@ -148,7 +148,7 @@ SHA512: 7f5ed7cbdd55d7a04916d2941d03f49e72f045951f1f6a0678e8c3aee430b764a9a4a4d9
 Package: antisplit
 Version: 1.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, apkeditor, apksigner, figlet, gum
 Section: utils
 Priority: optional
@@ -167,7 +167,7 @@ SHA512: 1eb9a30bd49d247942366220982d09826073b76940e799ad77e0801538d2e01eb4c3cc16
 Package: apkeditor
 Version: 1.4.7
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: openjdk-21, wget
 Section: utils
 Priority: optional
@@ -185,7 +185,7 @@ SHA512: c8a5671ca9e71837f747603b934c8de7e77c35358838009a4bd4ccbeb67eac92926c16b2
 Package: apkgen-cli
 Version: 1.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, android-sdk, termux-tools, gum
 Section: utils
 Priority: optional
@@ -204,11 +204,11 @@ SHA512: 2a754ca459b4c8e01c3e89711bb79ef84a6faa56bd4fe88d564fa90cbe28c7960762cd65
 Package: apkpatcher
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: git, libxml2, openjdk-17, apkeditor, apksigner 
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/APKpatcher
+Homepage: https://github.com/Anon4You/APKpatcher
 Description: Advanced APK Modification Tool
 Filename: dists/termux/extras/binary-all/apkpatcher.deb
 Size: 1208
@@ -220,7 +220,7 @@ SHA512: 0a76499144872900bf93f42913c9f1913f7ec27f42f5425c5a3b508fc4afeb050af99e33
 Package: apksearch
 Version: 1.3.5
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: utils
 Priority: optional
@@ -240,7 +240,7 @@ SHA512: bbf3809cbe203db22ed487d6bbeae4b6465bf83ec64622cafb5a3f71f6754b3fff7ad1b3
 Package: apktool
 Version: 3.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21, wget, aapt2
 Section: utils
 Priority: optional
@@ -258,9 +258,9 @@ SHA512: 38e1b0acc32968f02b59ad0f5e6affe7d25439f9539fae3a4ffc629298d64abc7db58018
 Package: asciibanner
 Version: 2.1.0 
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, libcaca
-Homepage: https://github.com/RstmMod-Team/asciibanner
+Homepage: https://github.com/Anon4You/asciibanner
 Description: A feature-rich FIGlet-compatible ASCII art generator with color support and font previews
 Filename: dists/termux/extras/binary-all/asciibanner.deb
 Size: 1148988
@@ -272,7 +272,7 @@ SHA512: 5c298bb1509c18c4a96b41e183efe9d1e0e51049e6c2c1821eee799b51d6fa063d96917b
 Package: beef
 Version: 0.5.4.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: ruby, nodejs, git, make, clang, sqlite, openssl-tool
 Section: security
 Priority: optional
@@ -289,7 +289,7 @@ SHA512: 6326b9a26f06040af4d5f87b797c09b6a9b768eebae099c38132121dd4deb19a38bda959
 Package: bitb-framework
 Version: 1.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Installed-Size: 2
 Depends: php, git, python, curl, wget
 Suggests: alienkrishn
@@ -305,7 +305,7 @@ SHA512: c6c3d3b6f59cff0bd92bfdf0c1d96002b79fb9bc7ce2f2635f2547a39a5236ff816837e2
 Package: blackbox-framework
 Version: 2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python2
 Section: utils
 Priority: optional
@@ -323,7 +323,7 @@ SHA512: d5f156f2190378e52d42c3c4667a2ae49c31c21e1102894c7488181cc625ed86938fd1c1
 Package: blackhat
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Installed-Size: 56
 Description: blackhat hacking sources
 Filename: dists/termux/extras/binary-all/blackhat.deb
@@ -336,7 +336,7 @@ SHA512: cf96da090787007541f4ce68fd45cbabdbdb0bcb7c328cb595ab7ab55ef2fc0ca089978b
 Package: blutter
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip, cmake, ninja, build-essential, pkg-config, libicu, capstone, fmt, radare2
 Section: utils
 Priority: optional
@@ -355,7 +355,7 @@ SHA512: 5476104bee44811076a8c7d1d5636a5d43ebbce9131ff83e16b4a102d20e8092e55a2bbc
 Package: brutespray
 Version: 2.4.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -376,7 +376,7 @@ SHA512: b858b7e950921df11e700ab2c4e85a5b84a6a463750d15c41831b040a0e70d6477155bec
 Package: burpsuite-pro
 Version: 2026.1.5
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (professional edition)
@@ -390,7 +390,7 @@ SHA512: 1fe252bca582d7119d1d3658220fca887ba8bcc17ef9ef409dc364f517317c62d1a9037a
 Package: burpsuite
 Version: 2026.2.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (community edition)
@@ -405,10 +405,10 @@ Package: byakugan
 Version: 1.0.5
 Architecture: all
 Section: security
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, git, php, cloudflared, jq, figlet
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/Byakugan.git
+Homepage: https://github.com/Anon4You/Byakugan.git
 Description: Advanced footprinting tool for Termux
  Byakugan is a powerful footprinting tool designed exclusively for Termux that tracks exact locations with military-grade precision. Use only for authorized security testing and educational purposes. Unauthorized tracking may violate privacy laws.
 Filename: dists/termux/extras/binary-all/byakugan.deb
@@ -421,7 +421,7 @@ SHA512: ef466a09f07f2b8c64c78a040cb99c10d205b2b102af43aab0630be1c3b951a94e1f9c12
 Package: cctvip
 Version: 1.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python,python-pip,figlet
 Installed-Size: 56
 Description: A collection of open cctv camera ip
@@ -435,7 +435,7 @@ SHA512: d4a51d7ba0c7d913d64d06d070ef0d2ca79aa5fba86efcfc5cb62623ff3c8af2cafebaa0
 Package: cdxsummary
 Version: 0.1.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: utils
 Priority: optional
@@ -456,7 +456,7 @@ SHA512: 79309c9550cdd4957a0f8498d90c4150ff3291e5804b8040e9cfb6e6c20743d20cb2a0bd
 Package: cewl
 Version: 6.2.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, ruby, pkg-config, openssl, libxml2, libxslt, ruby-nokogiri, exiftool
 Section: utils
 Priority: optional
@@ -477,7 +477,7 @@ Version: 1.0
 Architecture: all
 Priority: optional
 Section: net
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: cloudflared, python, python-pip, python-tkinter
 Homepage: https://github.com/Keyaru-code/Cloudflare-GUI
 Description: Stylish GUI for Cloudflare Tunnels
@@ -493,7 +493,7 @@ SHA512: 52dc27cce9a61938e83107d1963825b04b97ae235e2468513ba51d3cd4c0512e99ceafed
 Package: commix
 Version: 4.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, git
 Section: web
 Priority: optional
@@ -518,7 +518,7 @@ SHA512: 108abe52f8239e0dd5a937569032a3d97839995275a94ee532462ff55e599b23b30ab2fd
 Package: cronitor-cli
 Version: 31.6
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, tar
 Section: utils
 Priority: optional
@@ -536,7 +536,7 @@ SHA512: 01c55e5776ac688de75a7fadc4220757e9ef5df681dbea1594ab946190dd36783f0cb5b7
 Package: cupp
 Version: 3.3.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: termux-exec,python
 Homepage: https://github.com/Mebus/cupp
 Description: Common User Passwords Profiler (CUPP)
@@ -551,7 +551,7 @@ SHA512: 473948f061bf47d0e82083a5f605afca6b50b575d27eef57ab3ac46d05f73d61d161431c
 Package: dalfox
 Version: 2.12.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -572,7 +572,7 @@ SHA512: 994ac8712257ff7e872b975d285aa7aa3313b269113015cd2a04cd722b9613a6441a2d2c
 Package: darksploit-framework
 Version: 2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python2, perl, wget, php
 suggest: alienkrishn
 Homepage: https://github.com/ykankaya/DarkSploit
@@ -588,7 +588,7 @@ SHA512: 9a0ce44ea2bfef96a3454fdbd82449c78dfb7c3441cf647172f3572e4c2f4934af195345
 Package: dnsx
 Version: 1.2.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: recon
 Priority: optional
@@ -609,7 +609,7 @@ SHA512: 7ee0e7bbe35421ae379f12b18fcea1979acb03ed0c48657c65770957a56f77e83760dff3
 Package: dorks-eye
 Version: 2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip, pip-basic-depends, python-cryptography, libffi, libiconv
 Section: recon
 Priority: optional
@@ -628,7 +628,7 @@ SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555
 Package: dpt-shell
 Version: 2.9.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, openjdk-21
 Section: utils
 Priority: optional
@@ -644,7 +644,7 @@ SHA512: a04d18b1c11c3b2cd97356368c65c8e30e8798486e168ffa5c856d47056597edd2226ca0
 Package: drshell
 Version: 1.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, openssh
 Section: net
 Priority: optional
@@ -661,7 +661,7 @@ Package: enctool
 Version: 1.0
 Architecture: all
 Installed-Size: 64
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python,nodejs
 Description: encrypt or decrypt bash file and encrypt python in Marshal format
 Filename: dists/termux/extras/binary-all/enctool.deb
@@ -674,7 +674,7 @@ SHA512: 5d6b827f10bd6f0d64edac7662a7d2c44abe8a487fe7feeb764e7414bdf253e710d5c090
 Package: evilginx
 Version: 3.3.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang, make
 Section: security
 Priority: optional
@@ -691,7 +691,7 @@ SHA512: d62f4f5572e48c43f87e32aefc32757bf21fe4344693e361ad6e38458f5be658f3494496
 Package: evilurl
 Version: 3.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: security
 Priority: optional
@@ -712,7 +712,7 @@ SHA512: 66c4bbe174262d65f1f565dfd683d357e0c0e447d9262a9e840e51f432e7dc0cf9d0847b
 Package: exiftool
 Version: 13.36
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, perl
 Section: utils
 Priority: optional
@@ -733,7 +733,7 @@ SHA512: 3e3dcfe21d84f040128a54885fdc028a172af7e1bff6a4a27cb6cc315ac8fe890ad26e0c
 Package: ffmpegp
 Version: 1.30
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, jq, ffmpeg
 Section: utils
 Priority: optional
@@ -752,7 +752,7 @@ SHA512: ef7a4a35c465a9bc19bd9d7864ea67f614ea639116cd3d31aea6cb219545cb4dedfcf0f1
 Package: ffuf
 Version: 2.1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -773,7 +773,7 @@ SHA512: fd7e251ab33123910c78ab189031e92dfe22371013c8d213618bfe1f72088daae08d375c
 Package: flutter
 Version: 3.41.4
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Pre-Depends: x11-repo
 Depends: git, axel, which, gtk3, xorgproto, ninja, cmake, clang, pkg-config, termux-x11-nightly, p7zip
 Section: development
@@ -795,7 +795,7 @@ SHA512: 6845befd150c654d60631b1e68e29900e54812c879ac91ce72279041f415baa07280f2b6
 Package: fscan
 Version: 1.8.4
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Homepage: https://github.com/shadow1ng/fscan/
 Depends: golang, git 
 Description: A comprehensive intranet scanning tool
@@ -809,11 +809,11 @@ SHA512: 64e30a42ebafc98f6e476572e0865944ea52862fca56f75b684b3b9170fe05688d7dc965
 Package: fuckyou
 Version: 1.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: termux-exec
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/FuckYou
+Homepage: https://github.com/Anon4You/FuckYou
 Description: A powerful and customizable password list generator written in Bash.
 Filename: dists/termux/extras/binary-all/fuckyou.deb
 Size: 3752
@@ -825,7 +825,7 @@ SHA512: 828cec6a54353d2f7b122c44dcea672df543774c19018cb2e63dc12bc400ad65834cdc1e
 Package: ghauri
 Version: 1.4.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: web
 Priority: optional
@@ -844,7 +844,7 @@ SHA512: 0e9dd0a4b67851328a4e5cf795b946f8ed741c126e29fd02e0caa8e1cb90c2ad8fdf7b0d
 Package: ghidra
 Version: 12.0.4
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21, unzip, python,wget
 Section: utils
 Priority: optional
@@ -861,7 +861,7 @@ SHA512: 299512602b68a6c600744948e828b0cd3b6a21cbb58820c8c5daa4e57cbd41bf15f00397
 Package: ghosttrack
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: recon
 Priority: optional
@@ -882,7 +882,7 @@ SHA512: 6432041774cd2e519b8c393922445f397683ada42a93cd0abae7080252849b3b540e6718
 Package: gobuster
 Version: 3.8.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -903,7 +903,7 @@ SHA512: da9e5c066a53e5decf80ffd8d349c3f7a53e3d1174e39d20431b5d25bdc393c635e0e181
 Package: gophish
 Version: 0.12.1-latest
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang 
 Homepage: https://getgophish.com/
 Description: Open-Source Phishing Toolkit
@@ -917,7 +917,7 @@ SHA512: 58a3bfd22123fe5036139a621c46d59bced70fb59b1d388941a740c7a1f7160e8a363497
 Package: hashcat
 Version: 7.1.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: libc++, libiconv, opencl-vendor-driver, wget, unzip, rust, python, perl
 Section: security
 Priority: optional
@@ -936,7 +936,7 @@ SHA512: 26e6d7aff4e0f9f47b41569be009a60f46ec5fe3abb69a0829569bcaff6c5e701ad3fa42
 Package: hashid
 Version: 3.1.4
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: security
 Priority: optional
@@ -956,7 +956,7 @@ SHA512: 9ac36a07b5498b92d0011047a4e6aa6fcf9fbdc3081689e8d9e661810bbdd06f9e7f4253
 Package: hatcloud
 Version: 1.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: ruby, git
 Section: security
 Priority: optional
@@ -975,7 +975,7 @@ SHA512: a8847c3b4658064e87eadd95f9e935e71ddc626c605c1b934385d26fefd52ebfdd8f9d67
 Package: hbctool
 Version: 0.1.5-96
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, curl
 Section: utils
 Priority: optional
@@ -994,7 +994,7 @@ SHA512: 90f5a6e099c89ed018eae873f08fce63d43bf23e7e03590f5269e6f132466a4a9460c7fc
 Package: holehe
 Version: 1.61
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: security
 Priority: optional
@@ -1012,8 +1012,8 @@ SHA512: 075636fd824dbe9ed880c60903de86e21466238d58492c0700c96835d433c5fc46d42506
 Package: hound
 Version: 0.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/hound
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/hound
 Depends: git, php, nodejs
 Description: Simple and light tool for information gathering and capture exact GPS coordinates
 Filename: dists/termux/extras/binary-all/hound.deb
@@ -1026,7 +1026,7 @@ SHA512: 77b3f2b74d94dc8031f60616eb4c46b149710b7a4cb2bc2329bc22d145bd6c87ef90ee27
 Package: httpx
 Version: 1.9.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang
 Section: web
 Priority: optional
@@ -1051,7 +1051,7 @@ SHA512: 13acd524b8863a8c7ef2db2a75a535524e191789965fbb1ca939b7a8fb4c8f736a6140e8
 Package: hunner-framework
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: security
 Priority: optional
@@ -1072,7 +1072,7 @@ SHA512: eb4bdff205eec3b511bc1c25a813d98eadba39c2f8e601567d3986707e48021be738ce8d
 Package: ia-get
 Version: 0.1.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, rust
 Section: utils
 Priority: optional
@@ -1090,7 +1090,7 @@ SHA512: 7744954ad4aa5696c5a7b9a4965dea24f4cd007fc80d847c955e4876bfb2ae940ff9923b
 Package: infect
 Version: 1.03
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: apkeditor, apktool, metasploit-framework, apksigner, libxml2
 Section: security
 Priority: optional
@@ -1106,11 +1106,11 @@ SHA512: 7af0c3018381c65b341ca546bf8532cf7b92c8fd35f89d9b41995f12ef447eec98ee53c9
 Package: instaghost
 Version: 1.0.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: social
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/InstaGhost
+Homepage: https://github.com/Anon4You/InstaGhost
 Description: Professional Instagram OSINT Tool
  Simple and efficient Instagram data gathering tool for security research.
  Provides profile analysis and information extraction capabilities.
@@ -1124,7 +1124,7 @@ SHA512: 2b39ba12ed58a659302d1171e067ab36ff401ed4ce40f4aa42d03c929eeb247f73e32f6f
 Package: instajack
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python,python-pip
 Installed-Size: 1
 Description: Instagram old account jacker
@@ -1138,8 +1138,8 @@ SHA512: 8b4edfffa675ea01a091ddb6aa296869f7faacc67bb5ce360218ac67f227555b51414506
 Package: ip-changer
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/Ip-Changer 
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/Ip-Changer 
 Depends: git,curl,tor,privoxy,netcat-openbsd 
 Description: A powerful and easy-to-use tool to change your IP address automatically
 Filename: dists/termux/extras/binary-all/ip-changer.deb
@@ -1152,7 +1152,7 @@ SHA512: d3752f2f52af311aaef273cd2d81bd66be2c7f9ecb925490bf2daf89ff32ee478003a9f6
 Package: ipinfo
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Installed-Size: 48
 Depends: python,python-pip,termux-exec,termux-tools
 Description: Ip address information gathering tool for termux
@@ -1166,7 +1166,7 @@ SHA512: f850870dd95188081666ea8f960f3f9ab6a2c2624fb04b686c7f3212e3dd1aec90934331
 Package: iplookup
 Version: 1.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: termux-exec,termux-tools,figlet,toilet,pv
 Installed-Size: 36
 Description: Ip address info gethering script..
@@ -1180,7 +1180,7 @@ SHA512: 838808fb368810784fba04d0516ff351de215b424311dbe9b2ba1ee39f7662a7ede983dc
 Package: john
 Version: 1.9.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, make, clang, openssl, zlib
 Section: security
 Priority: optional
@@ -1196,7 +1196,7 @@ SHA512: 062f6ac612ce49ff50bda8b18ac78f3678168c820da37f56e8acaf040840b268a765d246
 Package: jsql
 Version: 0.144
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, openjdk-21
 Section: web
 Priority: optional
@@ -1215,7 +1215,7 @@ SHA512: 74ded90af770c3a7a8ce6c1448966592638c637c0f851677dbc5f118921bbc8aab038329
 Package: katana
 Version: 1.5.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: golang, git
 Section: utils
 Priority: optional
@@ -1234,7 +1234,7 @@ SHA512: 2bacab4378f17c3c85b10c37e1e84f15fa06fca7de5c3ebd865b2a55012dd24a022619c4
 Package: kerbrute
 Version: 1.0.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang, make
 Section: security
 Priority: optional
@@ -1255,7 +1255,7 @@ SHA512: 9cf51245565022642dd0a4f9ae945275ed08e0308008ad1975e620584dbc76145ab3de52
 Package: keysigner
 Version: 4.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, openjdk-17, apksigner, openssl-tool
 Homepage: https://github.com/muhammadrizwan87/keysigner.git
 Description: APK signing tool for Termux
@@ -1270,7 +1270,7 @@ SHA512: d26c139a13841104171e4de7c77434425ed79241c20fe1ce3ee9c95bf09137d38a1d579f
 Package: knockpy
 Version: 7.0.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, python-cryptography
 Section: recon
 Priority: optional
@@ -1291,7 +1291,7 @@ SHA512: d3299184dff4ef14482b41e207ed8fd69e795f6df60891f802e9826f4681cbbb4d2a9f71
 Package: linkwizard
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: utils
 Priority: optional
@@ -1310,7 +1310,7 @@ SHA512: 6c2161f18c2eeadb104399bf5a2a7881d9507f2aaa3e65ff53d7fcc80d580be98e7cff84
 Package: local2onion
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod ~RstmMod-Team
+Maintainer: RstmMod ~Anon4You
 Installed-Size: 54
 Depends: tor,php,curl,pv
 Description: Expose your localhost on the DARKWEB using termux
@@ -1325,7 +1325,7 @@ Package: locateme
 Version: 1.2
 Architecture: all
 Installed-Size: 202
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: php,jq,openssh,figlet
 Description: Live location tracker using google maps
 Filename: dists/termux/extras/binary-all/locateme.deb
@@ -1338,7 +1338,7 @@ SHA512: e4dbd584668efabd501bedbbb4bf6f98de990877d625c366058fa095e06b8fa550448089
 Package: mantra
 Version: 3.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -1358,7 +1358,7 @@ SHA512: b7acf2580e597ee47ab152c5b5bc3bb4ef344c4e3aa9e7bb1caa5dff076029fe0d24b05b
 
 Package: maskme
 Version: 1.0.0
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Architecture: all
 Description: Give a Mask to Phishing URL like a PRO
 Installed-Size: 32
@@ -1372,7 +1372,7 @@ SHA512: d0f88ed660bade0ce4d614f77b4f27bb73073d69ab13a7a955225acab272a37f1c0eda72
 Package: medusa
 Version: 2.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel, nethunter-cli
 Section: net
 Priority: optional
@@ -1391,7 +1391,7 @@ SHA512: 05983598931e51efe406a0b602e14bd450faf82816048cc684a7a3355eb7d63490bffd4c
 Package: metasploit-framework
 Version: 6.4.79
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: binutils, python, autoconf, bison, clang, coreutils, curl, findutils, apr, apr-util, postgresql, openssl, readline, libffi, libgmp, libpcap, libsqlite, libgrpc, libtool, libxml2, libxslt, ncurses, make, ncurses-utils, ncurses, git, wget, unzip, zip, tar, termux-tools, termux-elf-cleaner, pkg-config, git, ruby, ruby-nokogiri, apktool, apksigner
 Homepage: https://www.metasploit.com/
 Description: The world’s most used penetration testing framework
@@ -1407,9 +1407,9 @@ Version: 1.0.0
 Section: utils
 Priority: optional
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, file, termux-tools
-Homepage: https://github.com/RstmMod-Team/mkwebapp
+Homepage: https://github.com/Anon4You/mkwebapp
 Description: Tool to create Termux .deb packages for websites
  mkwebapp allows users to easily package a website URL into a
  standard Termux .deb package. It generates the necessary launcher
@@ -1425,7 +1425,7 @@ SHA512: fbd299c057f1d344b98602f8465ecdc66bd5a47b6fe0980a22eae43e68d6eb2981712982
 Package: morphshell
 Version: 2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, tte, eza, starship, fish, bat
 Section: shell
 Priority: optional
@@ -1445,7 +1445,7 @@ SHA512: 6d3eb45641c1f229f3d0afb0c86785edf5cd62833ad8d64395259040dcc6af0277a7b6a5
 Package: mtcr-apply
 Version: 1.1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21
 Section: utils
 Priority: optional
@@ -1464,7 +1464,7 @@ SHA512: 88cdb589e14ce52d35a74cdaeb76b4358c01d362bc5f3393451324d34bdaddb8cea31977
 Package: naabu
 Version: 2.5.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git, libpcap
 Section: security
 Priority: optional
@@ -1483,7 +1483,7 @@ SHA512: 0ce98f8b9e86b2b5f1260d52b629045edfa55290605464a80e82d40129d3a64b8a7eefed
 Package: nethunter-cli
 Version: 2025.4
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel
 Section: net
 Priority: optional
@@ -1502,7 +1502,7 @@ SHA512: 87b67d54d2eb68633f1d5da11413dd1810fd546f4644c9a7ff79bcca5960f8d1d9d5aa7d
 Package: ngrok
 Version: 3.4.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: wget, openssl
 Section: net
 Priority: optional
@@ -1518,7 +1518,7 @@ SHA512: 5d82258ee4a76d4f8eee35bface2d39ebb4ef0f34b2c0a27b5c9bee71447bf8aa1e6f0b8
 Package: nikto
 Version: 2.5.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: perl, git, openssl, openssl-tool, clang, make
 Section: security
 Priority: optional
@@ -1537,7 +1537,7 @@ SHA512: 22d2fd735bbf5e8f7f40bcf77eaaefeda46253c87a5007b74b080028f87d3df2b9f9266c
 Package: nuclei
 Version: 3.7.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang
 Section: web
 Priority: optional
@@ -1563,11 +1563,11 @@ SHA512: 2511799338639f8b296c44e3ee23dbf25e249f6365ab5bd14e964af91ca2977b0f24a04b
 Package: numinfo
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/NumInfo
+Homepage: https://github.com/Anon4You/NumInfo
 Description: Phone number intelligence and lookup tool
  Numinfo is a Python tool that provides detailed information about
  phone numbers using various APIs. It supports multiple data sources
@@ -1582,7 +1582,7 @@ SHA512: 738cbe9eac3aa937b93d19817bbf6f6512a6cf40220fd4dfd9caf1c6c84e3695259f7ea7
 Package: nvchad
 Version: 2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, neovim, ripgrep, lua-language-server, clang
 Section: editors
 Priority: optional
@@ -1601,7 +1601,7 @@ SHA512: cd3de9b0b39720e243e44ea3164fc25374f67ef72dac2943124d4dd66173973ef6d56b8d
 Package: openbullet
 Version: 1.0.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: security
 Priority: optional
@@ -1622,7 +1622,7 @@ SHA512: de18101d820b8a1be6ad9b19a5f551b820fc3ada36ec82450d4fe098cbebd3f8717f37c1
 Package: openbullet2
 Version: 0.3.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0, libsqlite, axel, p7zip
 Section: net
 Priority: optional
@@ -1640,7 +1640,7 @@ SHA512: bdd5d6a3735d31dabc85c0888de4ad8d38fa4a74faf628aa2fecd843a7fd5bca99f50fd9
 Package: pairip
 Version: 1.3.9
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21
 Section: utils
 Priority: optional
@@ -1659,7 +1659,7 @@ SHA512: efc7e210fca29912c91861436d828a920c04faa10a8930ac790a8471161a41623e2ae07a
 Package: pandora
 Version: 3.2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Homepage: https://github.com/MrSanZz/pandora
 Depends: git, python, wget, curl
 Description: open source osint tool
@@ -1673,7 +1673,7 @@ SHA512: 2f2bf69a7e862175ee65d9956adc7d3fd9ef206b8a1d3370059024c227f21ac35d3ebb02
 Package: paramspider
 Version: 1.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: security
 Priority: optional
@@ -1694,7 +1694,7 @@ SHA512: 60500095bee8accd9daaa0700c73007673c4509c92f000a40fb97e677c19588cc62e5e44
 Package: parrot-cli
 Version: 6.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel
 Section: net
 Priority: optional
@@ -1714,11 +1714,11 @@ SHA512: ee9dcb6318a1d053af0cb613f140a6ea9792250942c3c3feb27c85532543eb9022581744
 Package: pdfcracker
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: qpdf
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/PDFCracker
+Homepage: https://github.com/Anon4You/PDFCracker
 Description: A powerful yet simple PDF password recovery tool designed for security professionals and ethical hackers.
 Filename: dists/termux/extras/binary-all/pdfcracker.deb
 Size: 2212
@@ -1730,7 +1730,7 @@ SHA512: d5b16638def7961007d10bd68c2c47ff2e0172887ac577e74e871206be86b8d20c5ec5b8
 Package: phishmailer
 Version: 2.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: web
 Priority: optional
@@ -1748,7 +1748,7 @@ SHA512: e20e98f2a9706480b617eb3ecb5a58a6511267951962a35b79aae5d9018b4f19b570527e
 
 Package: phoneinfo
 Version: 1.0.1
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Architecture: all
 Depends: termux-tools,termux-exec,figlet,jq
 Installed-Size: 36
@@ -1763,7 +1763,7 @@ SHA512: fd5cfc35cfaf15a41ec2eedc012d32556db1cefe685d675548079323df3ae491ea573ddc
 Package: phonesploit-pro
 Version: 1.61
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: git, python, android-tools, nmap, which, scrcpy
 Section: security
 Priority: optional
@@ -1781,7 +1781,7 @@ SHA512: 1ce17f5c624026e68521da84efbad2a5d63fe6dc9519619d4985b63c672087dea7b23da1
 Package: pip-basic-depends
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust, libxml2, libxslt
 Section: devel
 Priority: optional
@@ -1806,11 +1806,11 @@ SHA512: 031a18d1a1c55d24daaa50c43a1555347acfd0a6b41649d42e285dff3edaea6976a05866
 Package: pkiller
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, asciibanner, apkeditor, apksigner
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/PKiller
+Homepage: https://github.com/Anon4You/PKiller
 Description: Automated PairIP License Removal Tool for Android APKs
  PKiller is an automated tool designed to remove PairIP license
  protection from Android APK files. Streamlines the process of
@@ -1825,7 +1825,7 @@ SHA512: 6beb438159788d004c812f0c44705d08d118e3b352b8a914b5fa7cd9be0060150c036f3e
 Package: playit
 Version: 0.16.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, rust, build-essential, pkg-config
 Section: net
 Priority: optional
@@ -1846,7 +1846,7 @@ Package: powerdos
 Version: 1.0.1
 Architecture: all
 Depends: python
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Description: A multi-threaded Denial of Service tool made in Python
 Installed-Size: 32
 Filename: dists/termux/extras/binary-all/powerdos.deb
@@ -1859,11 +1859,11 @@ SHA512: 9a88f29dbdc78b2c830f22fe463821c399ed5b1cf2a75f594858b7cd54dc533083d047c4
 Package: publiceye
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, jq, gum
 Section: recon
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/publiceye
+Homepage: https://github.com/Anon4You/publiceye
 Description: Comprehensive OSINT Tool for Information Lookup
  PublicEye is a comprehensive OSINT tool that provides various
  information lookup services including phone numbers, email addresses,
@@ -1879,7 +1879,7 @@ SHA512: b78541cce96c03668202080cacf08e8cd9351d2f4386dcc47daa9cf556b6431abe1cfb14
 Package: python-pandas
 Version: 2.2.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: python, python-pip, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm
 Section: science
 Priority: optional
@@ -1897,7 +1897,7 @@ SHA512: 3dcf2119f73531a7517541fbbbb05cdb64c2a23a9a984898e94eb42833563b7f7bedfc84
 Package: pywhat
 Version: 5.1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: utils
 Priority: optional
@@ -1918,7 +1918,7 @@ SHA512: 60233ca793c595904741fac67b65acc30e8a7bd734306be3854eafaa1506916158a347cf
 Package: random-banner
 Architecture: all
 Version: 1
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git
 Installed-Size: 1
 Homepage: https://github.com/RstmMod/random_banners
@@ -1933,11 +1933,11 @@ SHA512: e19138dda73d105dd4c15d3fbbd2c89d705156c315d8e28926ab645e3f8edc882300538e
 Package: ransomux
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: git, libxml2, openjdk-17, apkeditor, apksigner, file, which 
 Section: security
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/RansoMux
+Homepage: https://github.com/Anon4You/RansoMux
 Description: Ramsomware making tool
 Filename: dists/termux/extras/binary-all/ransomux.deb
 Size: 1208
@@ -1949,7 +1949,7 @@ SHA512: 7334f99dc27b2c2a6cbcc528edbe67673ff9edf70af571d550da0a4a127a0832b41e9dd7
 Package: redhawk
 Version: 2.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, php
 Homepage: https://github.com/Tuhinshubhra/RED_HAWK 
 Installed-Size: 1
@@ -1964,7 +1964,7 @@ SHA512: a20999c0df5c59b2f5447b5c95b0a2dd4ce4627638b6a4d1b26a5d8349a387485391ecca
 Package: rkpairip
 Version: 4.9
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, openjdk-17, apksigner
 Section: utils
 Priority: optional
@@ -1995,7 +1995,7 @@ SHA512: 3ce8efef7485b66a6bb9de0e239069e9f785fd4f50b82aa63a0e2965b6263794c2a8e588
 Package: ruby-nokogiri
 Version: 1.19.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: ruby, pkg-config, libxml2, libxslt, gumbo-parser, gumbo-parser-static
 Section: libs
 Priority: optional
@@ -2013,7 +2013,7 @@ SHA512: f89670c7e64aa3385c431424e7774f7c5cdfa7d91ba3e4c9addaaff69036d227533112c6
 Package: setoolkit
 Version: 8.0.3+git20241021-0kali1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel, nethunter-cli
 Section: security
 Priority: optional
@@ -2034,11 +2034,11 @@ SHA512: 45c02fdc90b497a00996560222d3364a3618bddf2674cb107d51f52669635baccb9e46d7
 Package: shellcrypt
 Version: 2.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, nodejs, figlet
 Section: security
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/ShellCrypt
+Homepage: https://github.com/Anon4You/ShellCrypt
 Description: Professional code obfuscation tool for Bash and Python
  Dual language obfuscation/decode tool featuring:
  - Bash script obfuscation
@@ -2054,7 +2054,7 @@ SHA512: 9d6510a76e50a1eff1c7240cd3cd891d49a9940c8506a4b384a87537eca3b7d3c1036e58
 Package: sherlock
 Version: 0.16.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, python-numpy, python-pandas
 Section: social
 Priority: optional
@@ -2073,7 +2073,7 @@ Package: shorturl
 Version: 1.0.0
 Architecture: all
 Depends: toilet,curl
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Description: URL shortner for termux
 Installed-Size: 32
 Filename: dists/termux/extras/binary-all/shorturl.deb
@@ -2086,7 +2086,7 @@ SHA512: af3f0ef916b5be2ac013af560a0f93e10fef24976f4e520e716dc298a8bc09ea85ac9319
 Package: silverinstaeye
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip, python-pillow, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm, rust
 Section: security
 Priority: optional
@@ -2107,7 +2107,7 @@ SHA512: 6d33af14464c1b32cb65797e337f15d7a1cc033353828982b5cd34e57209c1f4b008add9
 Package: slowhttptest
 Version: 1.9.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openssl, make, automake
 Homepage: https://github.com/shekyan/slowhttptest
 Description: Application Layer DoS attack simulator
@@ -2121,8 +2121,8 @@ SHA512: 8f16c05408d3383a5cfbaa2e2c7851f04562b3986a9091ad28aefd410e08e3189d2321e9
 Package: snatcher
 Version: 1.0.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/snatcher
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/snatcher
 Depends: git,php,curl,nodejs,python,python-pip,openssh,cloudflared
 Description: Snatcher - Capture Images from Victim's Camera
 Filename: dists/termux/extras/binary-all/snatcher.deb
@@ -2135,7 +2135,7 @@ SHA512: c2253ba926b20eb0ab769152d4aaf64a62b6db08f56bb7f071abcfc0d3069064b728103b
 Package: snoop
 Version: 1.4.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-psutil
 Section: utils
 Priority: optional
@@ -2156,7 +2156,7 @@ Version: 2.0
 Architecture: all
 Depends: python,python-pip
 Installed-Size: 1
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Description: telegram autoreport script
 Filename: dists/termux/extras/binary-all/spider.deb
 Size: 4192
@@ -2168,7 +2168,7 @@ SHA512: 3465477695d74511f974dbe4ab09532ad6eb8da68ed0e67c4fa32b948bc8a43e083ffe4b
 Package: sploitscan
 Version: 0.14.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip, pip-basic-depends
 Section: web
 Priority: optional
@@ -2187,7 +2187,7 @@ SHA512: 72f371f1f7f7a4956550e1d2156101aaedafa68ad707ae2eadd01b09181070626193f9a2
 Package: spurt
 Version: 1.9.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: make, golang, git
 Homepage: https://github.com/zer-far/spurt/
 Description: HTTP stress testing tool that can overload web servers.
@@ -2201,7 +2201,7 @@ SHA512: a1f8727921c2d2856ebaf7694ec83d738144eec14ffe7573e5705a0c7a9bea70972128ec
 Package: sqlmap
 Version: 1.10.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: web
 Priority: optional
@@ -2229,7 +2229,7 @@ SHA512: 2837657215b7877993a0e62992dd4abb6b0339691df25fa64b73dc69824961d0d669376d
 Package: sqlscan
 Version: 1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git,curl
 Homepage: https://github.com/machine1337/sqlscan
 Description: A small and an efficient tool to find SQL injection vulnerability in a websites.
@@ -2243,7 +2243,7 @@ SHA512: e4ee7d0801afa22deb51da806df551ca876b33a31687ae1de0787a347ab7ea2e3c901dea
 Package: storm-breaker
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, php
 Section: security
 Priority: optional
@@ -2263,7 +2263,7 @@ SHA512: 02ae01d044040918c5bef88d52367011f02ce756f986e605480a54b898a52907093f6f87
 Package: subcat
 Version: 1.4.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: recon
 Priority: optional
@@ -2283,7 +2283,7 @@ SHA512: 5535bdea12a1e0cc25ca2920e2b2b0b3771b00c52018e30518b7128a9f060ae99d51209f
 Package: subfinder
 Version: 2.13.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang
 Section: recon
 Priority: optional
@@ -2308,7 +2308,7 @@ SHA512: 3b97447f3d46a5252eeaada23db775b69b87608eca36900c7965cb9c26e018994e1c1ed8
 Package: subjack
 Version: 3.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -2329,7 +2329,7 @@ SHA512: 044025e7c1467a2d537113a44c7c41e88643a71196fb9cc200e487e5f122f018d3fb2919
 Package: subzy
 Version: 1.2.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: security
 Priority: optional
@@ -2350,11 +2350,11 @@ SHA512: a8fe3dac3a3f4ecc58d08ce3afce32819e83221d5bc8ddabac7f315513de6d4d88d1d2ca
 Package: term-helper
 Version: 1.1.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, pv
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/term-helper
+Homepage: https://github.com/Anon4You/term-helper
 Description: Terminal command helper and cheatsheet tool
 Filename: dists/termux/extras/binary-all/term-helper.deb
 Size: 3384
@@ -2366,10 +2366,10 @@ SHA512: 550865dd119fb867fe5b8f1938b519ee30ce2ff79c64190fa874b62c6689f1c2fa42f980
 Package: termsploit
 Version: 1.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git,curl,python,build-essential,cmake,ninja,libopenblas,libandroid-execinfo,patchelf,binutils-is-llvm,rust,jq,python-pillow,nodejs,qpdf,libiconv,libxml2,libxslt,dnsutils,whois,php 
 Installed-Size: 1 
-Homepage: https://github.com/RstmMod-Team/termsploit-framework 
+Homepage: https://github.com/Anon4You/termsploit-framework 
 Description: Pentesting framework for Termux
 Filename: dists/termux/extras/binary-all/termsploit.deb
 Size: 1672
@@ -2381,11 +2381,11 @@ SHA512: 94ff3724bb2622d5d2688c977d6562b9a059f501df6e82a57333cb92aa37382317e606a5
 Package: termux-ai
 Version: 3.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: curl, gum, tgpt
 Section: ai
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/Termux-Ai
+Homepage: https://github.com/Anon4You/Termux-Ai
 Description: Interactive AI Assistant for Termux
  Your AI companion in Termux with support for 10+ AI providers,
  50+ image generation models, and interactive command-line interface.
@@ -2400,7 +2400,7 @@ SHA512: cd386771d21e4c44c2d8a9e2f6ec8a0026e44ef7f7f237eae115b0c0e5be98ec897b8de3
 Package: termux-desktop-wallpapers
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: termux-tools, termux-desktop
 Homepage: https://alienkrishn.infy.uk
 Description: Wallpapers for termux-desktop
@@ -2414,7 +2414,7 @@ SHA512: 2d3950f627f0ac42008fc733d9c43098dc67fbc62f9cd5d09191dc2cf5f7a407d1e0f09b
 Package: termux-desktop
 Version: 1.0.7
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: termux-am,xfce4,xfce4-terminal,xwayland,xfce4-whiskermenu-plugin,firefox,neovim,termux-x11-nightly,dbus,termux-desktop-wallpapers,xfce4-goodies
 Installed-Size: 70830
 Description: termux xfce4 desktop gui with Hacker themes and icona
@@ -2428,8 +2428,8 @@ SHA512: 6c35b17f4dfc8f87040fb0126161e06b01951180574929c0f55a7e60f37ec806236665fd
 Package: termux-media-downloader
 Version: 2.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/Termux-Media-Downloader
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/Termux-Media-Downloader
 Depends: curl, python, python-pip, ffmpeg
 Description: A high-performance media downloader for Termux
 Filename: dists/termux/extras/binary-all/termux-media-downloader.deb
@@ -2442,8 +2442,8 @@ SHA512: 42aaa43e7e2f5c61351c569e3e1fde527880259334cd59add66cc938b34af84b8885bc7c
 Package: termux-penv
 Version: 2.0.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/termux-penv.git
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/termux-penv.git
 Installed-Size: 103
 Depends: wget, proot, figlet
 Description: Termux Penv - Simplify Chroot Environments in Termux
@@ -2457,7 +2457,7 @@ SHA512: 23f1076301e6b8751e971228a4348cc573e2444078402a1be878d20b58dae04326959884
 Package: rstmmod-theme
 Version: 3.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: fish, starship, git, jp2a, eza
 Description: Professional terminal customization for Termux
  A complete theme package for Termux including:
@@ -2476,7 +2476,7 @@ SHA512: b06d0b80de1a5bd1a6c90b2b32f298182d6dda4294259266a29a09ec65e6bb3c19061543
 Package: thc-hydra
 Version: 9.7
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, make, clang, openssl, libssh
 Section: net
 Priority: optional
@@ -2495,7 +2495,7 @@ SHA512: a7d7a72fb38169e7b6b89975f8d0354befd8dfa1253f987ffb0b341b2767e663b14fb922
 Package: the-theif
 Version: 2.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: apksigner,apkeditor,python
 Installed-Size: 4842
 Description: A tool that can hijack cookies and transmit them to Telegram using the API.
@@ -2509,7 +2509,7 @@ SHA512: 7533c8bdf4b187c5c91f7cabe587f0b7dbd25084d35d8bc23fdf5549d98fe78bbb8c9df2
 Package: theharvester
 Version: 4.8.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel, nethunter-cli
 Section: recon
 Priority: optional
@@ -2528,7 +2528,7 @@ SHA512: 8370ab7ea5fb0e9210b65d73a1761d42fe9a18273d598497c2fd53912aea2d98739e1736
 Package: thezoo
 Version: 0.60
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, python-pip
 Section: security
 Priority: optional
@@ -2549,7 +2549,7 @@ SHA512: 5c33fd8d5fd52a33f377f9a1e605fecfe85c062906d65fbbbdea63c173d5f3105e459ae4
 Package: tte
 Version: 0.14.2
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: utils
 Priority: optional
@@ -2568,7 +2568,7 @@ SHA512: 2846bb2cdce0dcad048e1c554be04739a7233a74321285b4ee102ad6fc95ebd8255b2c9b
 Package: vedic
 Version: 2.0.6
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, rust, clang, make, cmake
 Section: devel
 Priority: optional
@@ -2584,9 +2584,9 @@ SHA512: 2ab845db8f7d822439e0c8b5076369ea2583d1acfa793b81219affd99b249dcafb39696b
 Package: venom
 Version: 1.0.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git,curl,php,openssh,nodejs,cloudflared
-Homepage: https://github.com/RstmMod-Team/venom/
+Homepage: https://github.com/Anon4You/venom/
 Description: An automated phishing tool for absolute beginners
 Filename: dists/termux/extras/binary-all/venom.deb
 Size: 1460
@@ -2598,7 +2598,7 @@ SHA512: d47cb46545ea33657e407be7448a2c7d3a73916d08adc2d51330b229eedd47a770c1a64f
 Package: void-fonts
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, bash
 Section: misc
 Priority: optional
@@ -2616,7 +2616,7 @@ SHA512: 6456764b7c5b8d822cf228385a643f94c31354370558e01954349d3511613cb3b566beea
 Package: vulnx
 Version: 1.9
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: web
 Priority: optional
@@ -2635,7 +2635,7 @@ SHA512: dc2bf146603a83c2acb61738d47061c181876fc1d525474c0bdc258b9823ce7ba1617e9e
 Package: wacli
 Version: 0.5.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang
 Section: utils
 Priority: optional
@@ -2653,7 +2653,7 @@ SHA512: ac62a75cb3668e5f42de2d11cfe3333d4e329fa3922220711fe1c5e525e8d16175544e9a
 Package: wafw00f
 Version: 2.3.1
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python, python-pip
 Section: security
 Priority: optional
@@ -2674,7 +2674,7 @@ SHA512: 766ff27cd2ced5f1d23736b369f3136b4c23a6f6e882a817ddb11e850076fa389f98b524
 Package: waybackurls
 Version: 0.1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: golang, git
 Section: recon
 Priority: optional
@@ -2695,7 +2695,7 @@ SHA512: 2c36bf4664c5b2115baea9475cd4e56c7542bd419221c835adea497a5b9856fc31079833
 Package: waymap
 Version: 7.2.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: web
 Priority: optional
@@ -2715,8 +2715,8 @@ SHA512: 1ad28c797106d7ac2eed2e11d058233012c2053054f84e5d79b55f6e64c6a80d62bd9c8f
 Package: webinfo
 Version: 3.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
-Homepage: https://github.com/RstmMod-Team/webinfo/
+Maintainer: RstmMod [Anon4You]
+Homepage: https://github.com/Anon4You/webinfo/
 Depends: curl,openssl-tool,dnsutils,nmap,whois,traceroute
 Installed-Size: 8
 Description:Website information gathering
@@ -2731,7 +2731,7 @@ Package: webserver
 Architecture: all
 Version: 1.1
 Installed-Size: 4.0
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Description: a simple webserver for termux
 Depends: php, figlet, openssh
 Filename: dists/termux/extras/binary-all/webserver.deb
@@ -2744,7 +2744,7 @@ SHA512: 84b31e5d8572274be3f3f003080e7ce1e93c5273c789a62469ee38020f24ceb2a199c706
 Package: websploit
 Version: 4.0.5
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Installed-Size: 1
 Depends: python, python-pip, git, python-numpy 
 Homepage: https://github.com/The404Hacking/websploit
@@ -2759,7 +2759,7 @@ SHA512: d8aeb7609624e0f794108d042c53514ab0428a228142d6df26f85bb3cb246aeb94ea4cdf
 Package: weeman
 Architecture: all
 Version: 1.7.1
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: python2,git
 Suggest: maskme,shorturl
 Installet-Size: 1
@@ -2775,7 +2775,7 @@ SHA512: d99e0898957c8380e4dfa45f5018d47d5d587992bd96f1e8800302be88f0ae561b235882
 Package: whatsapp-cli
 Version: 1.3.3
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, golang
 Section: net
 Priority: optional
@@ -2794,7 +2794,7 @@ SHA512: 54f2751637b97ede29ebcf8712e3ee511867e862b25d5effbf32c6e635e2a1604619d5ab
 Package: wordlists
 Version: 1.1-0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: wget, git
 Description: Security wordlists collection (rockyou.txt + SecLists subset).
  Uses faster GitHub mirror for rockyou.txt. For authorized security research only.
@@ -2808,7 +2808,7 @@ SHA512: 3abf72d3b682bb8764f297a0a7b42e5aa2c7c2729632039a15d1df0242f5d006daa9e764
 Package: wpscan
 Version: 3.8.28
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: proot, tar, axel, nethunter-cli
 Section: web
 Priority: optional
@@ -2827,11 +2827,11 @@ SHA512: 60454bf67df02b3d5d4e1177d34843119c611925de5829e93dc011a368cf22815d2cc380
 Package: xbomber
 Version: 2.0.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python, curl
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/XBomber
+Homepage: https://github.com/Anon4You/XBomber
 Description: A High-Performance SMS Bombing Tool for Educational Testing
    XBomber is a lightweight Python script designed to test the resilience of SMS gateways by sending a high volume of messages.
    It is optimized for the Termux environment on Android, providing a portable solution for security researchers and penetration testers.
@@ -2845,7 +2845,7 @@ SHA512: 877d96d08163d05946078694ec7e7a5e8a75365a91a8dcc3e58538c1eda4b83cf207ce86
 Package: xsstrike
 Version: 3.1.6
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, python
 Section: web
 Priority: optional
@@ -2873,7 +2873,7 @@ SHA512: f937dfbd6b289e88264b34073716ea55e660c875f330922b5ad074ce6ef840ec9c300cf1
 Package: zaproxy
 Version: 2026.03.02
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: openjdk-21, python, tar
 Section: security
 Priority: optional
@@ -2894,7 +2894,7 @@ SHA512: b9eea03b09877ff1c88bf72059005e81a3378fc07f56cd5582f8a3c16f4d8cae939a0d24
 Package: zen-c
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team]
+Maintainer: RstmMod [Anon4You]
 Depends: git, make, clang, llvm
 Section: devel
 Priority: optional
@@ -2914,11 +2914,11 @@ SHA512: 6529f475028b71a8c956a5d880447f4d43a308b2af6b7199dd709921cc49c813d11189bc
 Package: zipcracker
 Version: 1.0
 Architecture: all
-Maintainer: RstmMod [RstmMod-Team] 
+Maintainer: RstmMod [Anon4You] 
 Depends: zip, unzip
 Section: utils
 Priority: optional
-Homepage: https://github.com/RstmMod-Team/ZipCracker
+Homepage: https://github.com/Anon4You/ZipCracker
 Description: A powerful yet simple ZIP archive password recovery tool designed for Termux
 Filename: dists/termux/extras/binary-all/zipcracker.deb
 Size: 2108
