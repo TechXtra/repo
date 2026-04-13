@@ -8,14 +8,13 @@ function fish_greeting
     echo " |  _  // __|| __| '_ ' _ \| |\/| |/ _ \ / _' |"
     echo " | | \ \\__ \| |_| | | | | | |  | | (_) | (_| |"
     echo " |_|  \_\___/ \__|_| |_| |_|_|  |_|\___/ \__,_|"
-    echo -e "\n   \e[1;33mWelcome back, Boss! \e[0m| \e[1;32m@RstmMod v3.5\e[0m"
-    echo -e "\e[1;30m------------------------------------------------\e[0m"
+    echo -e "\n\e[1;33m Boss \e[0m| \e[1;32m@RstmMod v3.5\e[0m"
+    echo -e "\e[1;30m------------------------------------------\e[0m"
 end
 
-# --- Suggestion Color (Bright Gray) ---
+# Baaki ka purana code (Suggestion color, Prompt, etc.)
 set -g fish_color_autosuggestion 555
 
-# --- Left Side Prompt (Arrow Look) ---
 function fish_prompt
     set_color blue
     echo -n "╭─["
@@ -34,7 +33,6 @@ function fish_prompt
     echo -n " "
 end
 
-# --- Right Side Prompt (Heart & Time) ---
 function fish_right_prompt
     set_color red
     echo -n "♡ "
