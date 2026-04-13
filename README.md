@@ -15,5 +15,30 @@ We’re the **RstmMod Crew**, dedicated to providing Termux users with powerful,
 
 ### 📦 Get Started  
 Add the RstmMod repository to your Termux in one go:  
+
 ```bash
 curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh](https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh) | bash
+```
+
+> **Tip**: Make sure you have `curl` installed. If not, run `pkg install curl` first.
+
+### 🌐 Connect with Us  
+| Resource | Link |
+|----------|------|
+| 📚 Main Repository | [github.com/TechXtra/repo](https://github.com/TechXtra/repo) |
+| 🛠️ Package List | [PACKAGES.md](https://github.com/TechXtra/repo/blob/main/docs/Packages) |
+| 💬 Community | [t.me/TechXtra](https://t.me/TechXtra) |
+
+### ☕ About Us  
+Driven by a passion for Android customization and the power of `Termux`. RstmMod is built to push the limits of what you can do on a mobile device. Join us and let's build something great! ☕💻
+
+### ⚖️ Our Ethos  
+> "Innovation is the key to freedom"  
+We believe in open-source learning and empowering users to take full control of their digital environment.
+
+### 🌟 Stay in Touch  
+Follow the project and join our community for the latest updates!  
+
+[![GitHub Follow](https://img.shields.io/badge/Follow-TechXtra-blue?logo=github)](https://github.com/TechXtra)
+[![Support](https://img.shields.io/badge/Support-Community-2CA5E0?logo=telegram)](https://t.me/TechXtra)
+[![Made with Love](https://img.shields.io/badge/Made%20with-♥-red)](https://github.com/TechXtra/repo)
