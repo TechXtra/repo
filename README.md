@@ -27,7 +27,7 @@ curl -sL [https://raw.githubusercontent.com/TechXtra/repo/main/docs/install.sh](
 |----------|------|
 | 📚 Main Repository | [github.com/TechXtra/repo](https://github.com/TechXtra/repo) |
 | 🛠️ Package List | [PACKAGES.md](https://github.com/TechXtra/repo/blob/main/PACKAGES.md) |
-| 💬 Community | [t.me/TechXtra](https://t.me/TechXtra) |
+| 💬 Community | [t.me/TechXtra](https://t.me/RstmMod) |
 
 ### ☕ About Us  
 Driven by a passion for Android customization and the power of `Termux`. RstmMod is built to push the limits of what you can do on a mobile device. Join us and let's build something great! ☕💻
