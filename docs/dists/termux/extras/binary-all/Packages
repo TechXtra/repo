@@ -31,7 +31,7 @@ SHA1: b0af89c684d512182599bd7cf699674cbdbe225c
 SHA256: cca5922dfbf090ba37dc84692b0f459cbc5758842aea9d72e9291f3d5ece8773
 SHA512: 2d7b8d803def7a9fb94cc73e0077dd093aad9ec80c590530af2e6b01cc68a2c528c616050081f9e7bde6ee5d7cee8a39dac977d726c3a6c42a1c833278421924
 
-Package: alienkrishn
+Package: rstmmodn
 Version: 2.0.6
 Architecture: all
 Maintainer: RstmModn [Anon4You]
@@ -39,10 +39,10 @@ Depends: curl, termux-tools
 Section: utils
 Priority: optional
 Homepage: https://rstmmod.github.io/
-Description: TermuxVoid package manager and system helper
- Official package manager for TermuxVoid repository with utilities
+Description: RstmMod package manager and system helper
+ Official package manager for RstmMod repository with utilities
  for package management, system updates, and maintenance tasks.
-Filename: dists/termux/extras/binary-all/alienkrishn.deb
+Filename: dists/termux/extras/binary-all/rstmmodn.deb
 Size: 4012
 MD5Sum: eb0c59222609877b40d8cc1c9555821a
 SHA1: 843301590ba91d7a90d5707bcdb6241dadf206b6
@@ -292,7 +292,7 @@ Architecture: all
 Maintainer: RstmModn [Anon4You]
 Installed-Size: 2
 Depends: php, git, python, curl, wget
-Suggests: alienkrishn
+Suggests: rstmmodn
 Homepage: https://github.com/surya-dev-singh/BITB-framwork
 Description: Phishing technique that simulates a browser window within the browser to spoof a legitimate domain.
 Filename: dists/termux/extras/binary-all/bitb-framework.deb
@@ -574,7 +574,7 @@ Version: 2
 Architecture: all
 Maintainer: RstmModn [Anon4You]
 Depends: git, python2, perl, wget, php
-suggest: alienkrishn
+suggest: rstmmodn
 Homepage: https://github.com/ykankaya/DarkSploit
 Installed-Size: 1
 Description: Darksploit is a tool to run and create exploits
@@ -1785,7 +1785,7 @@ Maintainer: RstmModn [Anon4You]
 Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust, libxml2, libxslt
 Section: devel
 Priority: optional
-Homepage: https://alienkrishn.page.gd
+Homepage: https://rstmmodn.page.gd
 Description: Essential build dependencies for Python packages
  Provides all necessary build tools and libraries required for compiling
  Python packages with pip. This includes:
@@ -2402,7 +2402,7 @@ Version: 1.0
 Architecture: all
 Maintainer: RstmModn [Anon4You]
 Depends: termux-tools, termux-desktop
-Homepage: https://alienkrishn.infy.uk
+Homepage: https://rstmmodn.infy.uk
 Description: Wallpapers for termux-desktop
 Filename: dists/termux/extras/binary-all/termux-desktop-wallpapers.deb
 Size: 14061720
@@ -2465,7 +2465,7 @@ Description: Professional terminal customization for Termux
   - Starship prompt setup
   - Custom banner support
   - Color schemes and fonts
-Homepage: https://github.com/rstmmod/TermuxVoid-Theme
+Homepage: https://github.com/rstmmod/RstmMod-Theme
 Filename: dists/termux/extras/binary-all/rstmmod-theme.deb
 Size: 2608
 MD5Sum: 8b79fde6aa134eb6998715c39b30296d
