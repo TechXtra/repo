@@ -39,8 +39,8 @@ Depends: curl, termux-tools
 Section: utils
 Priority: optional
 Homepage: https://rstmmod.github.io/
-Description: TermuxVoid package manager and system helper
- Official package manager for TermuxVoid repository with utilities
+Description: RstmMod package manager and system helper
+ Official package manager for RstmMod repository with utilities
  for package management, system updates, and maintenance tasks.
 Filename: dists/termux/extras/binary-all/alienkrishn.deb
 Size: 4012
@@ -2465,7 +2465,7 @@ Description: Professional terminal customization for Termux
   - Starship prompt setup
   - Custom banner support
   - Color schemes and fonts
-Homepage: https://github.com/rstmmod/TermuxVoid-Theme
+Homepage: https://github.com/rstmmod/RstmMod-Theme
 Filename: dists/termux/extras/binary-all/rstmmod-theme.deb
 Size: 2608
 MD5Sum: 8b79fde6aa134eb6998715c39b30296d
