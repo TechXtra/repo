@@ -34,6 +34,21 @@ echo "deb [trusted=yes arch=all] https://techxtra.github.io/repo termux extras" 
 echo -e "\n${BLUE}[*] Updating package lists...${RESET}"
 pkg update -y
 
+# ==========================================
+# THEME INSTALLATION LOGIC (Default: YES)
+# ==========================================
+echo -e "\n${YELLOW}[?] Do you want to install the official 'rstmmod-theme'? [Y/n]${RESET}"
+read -r THEME_CHOICE
+
+# Agar n ya N type kiya, toh skip karega. Baaki sab (Enter/Y) pe install karega.
+if [[ "$THEME_CHOICE" == "n" || "$THEME_CHOICE" == "N" ]]; then
+    echo -e "${CYAN}[*] Skipping theme installation...${RESET}"
+else
+    echo -e "${GREEN}[*] Installing rstmmod-theme...${RESET}"
+    pkg install rstmmod-theme -y
+fi
+# ==========================================
+
 echo -e "\n${GREEN}============================================${RESET}"
 echo -e "${WHITE}       AVAILABLE TOOLS MENU (169+)          ${RESET}"
 echo -e "${GREEN}============================================${RESET}\n"
@@ -47,5 +62,5 @@ echo -e "${YELLOW}[!] To install any tool from the list above, type:${RESET} ${C
 echo -e "${YELLOW}[!] Example:${RESET} ${CYAN}pkg install sqlmap${RESET}"
 echo -e "${GREEN}--------------------------------------------${RESET}"
 echo -e "${CYAN}📢 Join us On TG:${RESET} ${WHITE}@RstmMod${RESET}"
-echo -e "${CYAN}🐙 Join us on GitHub:${RESET} ${WHITE}@TechXtra${RESET}"
+echo -e "${CYAN}🐈 Join us on GitHub:${RESET} ${WHITE}@TechXtra${RESET}"
 echo -e "${GREEN}============================================${RESET}"
